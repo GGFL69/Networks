@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Формы</title>
+</head>
+<body>
+<form name="forma1" method="post">
+<p>Имя: <input type="name" name="login"></p>
+<p>Email: <input type="email" name="login"></p>
+<p>Пароль: <input type="password" name="pass"></p>
+<p>Укажите ваш пол:<br>
+<input type="radio" name="pol" value="М" checked>Мужской
+<input type="radio" name="pol" value="Ж">Женский</p>
+<p>Ваши увлечения: <select name="catalog">
+<option value="1">Компьютеры</option>
+<option value="2">Спорт</option>
+<option value="3">Животные</option>
+<option value="4">Автомобили</option>
+<option value="5">Клубы</option>
+<option value="6">Музыка</option>
+</select>
+</p>
+<p>Ваши пожелания: <input type="wish" name="wishes" style="height:40px;"></p>
+<p><input type="submit" value="Отправить"></p>
+</form>
+</body>
+</html>
